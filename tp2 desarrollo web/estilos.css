@@ -1,0 +1,74 @@
+* {background-color: rgb(253, 204, 255);}
+
+
+#just{
+    font-family: 'Abril Fatface';
+    font-size: 20pt;
+    color:rgb(72, 1, 79);
+    text-align: center;
+}
+
+h2{
+    font-family: 'Abril Fatface';
+    font-size: 16pt;
+    color:rgb(97, 0, 97) 
+}
+
+p{
+    font-family: 'Roboto Slab';
+    font-size: 12pt;
+}
+
+#section1 {
+    list-style-position: outside;
+    font-family: 'Roboto Slab';
+    list-style-image: url('img/star3.png');
+}
+
+#section2{
+    list-style-position: inside;
+    font-family: 'Roboto Slab';
+    list-style-image: url('img/star3.png');
+    position: absolute;
+    top: 44%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#formulario{
+    font-family: 'Roboto Slab';
+    text-align: center;
+    border: 3px solid #630265; 
+    border-radius: 5px;
+    width: 500px; 
+    height: 400px; 
+}
+
+input, select, textarea {
+    font-family: 'Roboto Slab';
+    text-align: left; 
+    border: 1px solid #87019f; 
+    border-radius: 5px; 
+}
+
+footer{
+    border-top: 2px solid #ccc;
+    text-align: center;
+    font-family: 'Abril Fatface';
+    font-size: 17px;
+    list-style-position: inside;
+}
+
+#insta{
+    list-style-image: url(img/ig.png);
+    rotate:(45deg);
+}
+  
+#tw{
+    list-style-image: url(img/tw1.png);
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    -webkit-text-stroke: 0.1px rgb(52, 21, 56);
+}
